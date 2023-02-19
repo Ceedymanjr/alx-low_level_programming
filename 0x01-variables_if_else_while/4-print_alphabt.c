@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main - main function 
+ * main - main function
  *
  * Return: some time 0
  */
@@ -13,7 +13,7 @@ int main(void)
 		if (i != 'q' &&  i != 'e')
 			putchar(i);
 	}
-	putchar('\n')
-	return (0);	
+	putchar('\n')"
+	return (0);
 }
 
