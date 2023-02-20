@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * maim - main function
+ * main - main function
  *
  * Return: 0  times
  */
