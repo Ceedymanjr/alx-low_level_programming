@@ -1,12 +1,10 @@
 #include <stdio.h>
-
-/***
- * main - main function
+/**
+ * main - main functionn
  *
- * do what you do better
- *
- * Return: always 0
+ * Return: 0
  */
+
 int main(void)
 {
 	int x;
