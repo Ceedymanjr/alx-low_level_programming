@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * man - function of alphabet in lower case
+ * print_alphabet_x10 - function that alphabet in lower case
  *
- * Return: 0
+ * Return: always 0
  */
 
 void print_alphabet_x10(void)
