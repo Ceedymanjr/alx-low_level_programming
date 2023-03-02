@@ -7,8 +7,8 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int destlen;
-	int srclen;
+	int destlen = 0;
+	int srclen = 0;
 	int x;
 
 	for (x = 0 ; dest[x] != '\0' ; x++)
