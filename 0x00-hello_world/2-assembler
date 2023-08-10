@@ -1,0 +1,2 @@
+#!/bi/bash
+gg $CFILE -S
