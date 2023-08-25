@@ -24,7 +24,7 @@ char *cap_string(char *s)
 			if (s[x] == spt[y])
 			{
 				if (s[x + 1] >= 'a' && s[x + 1] <= 'z')
-					s[x + 1] = s[x + 1];
+					s[x + 1] = s[x + 1] - 32;
 			}
 		}
 	}
