@@ -6,13 +6,14 @@
  * Return: n
  */
 
+int _sqrt_recursive(int n, int low, int high);
 int _sqrt_recursion(int n)
 {
 	if (n < 0)
 	{
 		return (-1);
 	}
-	return (_sqrt_recursion(n, 0, n));
+	return (_sqrt_recursive(n, 0, n));
 }
 
 
