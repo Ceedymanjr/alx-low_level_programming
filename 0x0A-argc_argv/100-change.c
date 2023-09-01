@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
 {
 	int cents;
 	int coins = 0;
-	(void)argv;
 
 	if (argc != 2)
 	{

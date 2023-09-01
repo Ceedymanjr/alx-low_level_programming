@@ -3,7 +3,7 @@
 /**
  * main - function that print all the argument
  * @argc: argument count
- * @argv: rgument vector
+ * @argv: argument vector
  * Return: Always 0
  */
 
@@ -13,7 +13,6 @@ int main(int argc, char *argv[])
 	(void)argv;
 
 	for (x = 0 ; x < argc ; x++)
-		printf("%d\n", argc[x]);
+		printf("%s\n", argc[x]);
 	return (0);
-
 }
