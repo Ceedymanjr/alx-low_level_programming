@@ -1,11 +1,16 @@
-#include "calc.h"
+#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
+int op_add(int a, int b);
+int op_sub(int a, int b);
+int op_mul(int a, int b);
+int op_div(int a, int b);
+int op_mod(int a, int b);
 /**
  * op_add - function that add two numbers
  * @a: function parameter
  * @b: function parameter
- * Return: a and b
+ * Return: sum of a and b
  */
 int op_add(int a, int b)
 {
@@ -16,7 +21,7 @@ int op_add(int a, int b)
  * op_sub - function that subtract b from a
  * @a: function parameter
  * @b: function parameter
- * Return: a and b
+ * Return: a - b
  */
 int op_sub(int a, int b)
 {
@@ -26,7 +31,7 @@ int op_sub(int a, int b)
  * op_mul - function that multiply two numbers
  * @a: function parameter
  * @b: function parameter
- * Return: a and b
+ * Return: a * b
  */
 int op_mul(int a, int b)
 {
@@ -36,7 +41,7 @@ int op_mul(int a, int b)
  * op_div - function that divide two numbers
  * @a: function parameter
  * @b: function parameter
- * Return: a and b
+ * Return: a / b
  */
 int op_div(int a, int b)
 {
@@ -52,7 +57,7 @@ int op_div(int a, int b)
  * op_mod - function that divide two numbers and return reminder
  * @a: function parameter
  * @b: function parameter
- * Return: a and b
+ * Return: a % b
  */
 int op_mod(int a, int b)
 {
